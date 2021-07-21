@@ -11,15 +11,15 @@ namespace ConsoleApp12
         Button CreateButton();
         CheckBox CreateCheckBox();
     }
-    abstract class Button
+    interface Button
     {
-        public abstract void Paint();
+        void Paint();
         
     }
 
-    abstract class CheckBox
+    interface CheckBox
     {
-        public abstract void CheckBox1();
+        void CheckBox1();
     }
 
     class MacButton : Button
